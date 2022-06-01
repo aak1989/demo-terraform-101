@@ -3,8 +3,6 @@ terraform {
 }
 
 provider "aws" {
-  source = "hashicorp/aws"
-  version = "3.72.0"
 }
 
 module "server" {
